@@ -39,13 +39,14 @@ nav ul li a{
 }
 
 .portada {
-    height: 700px;
+    height: 80vh;
     display: grid;
     place-items: center;
     /* background: radial-gradient(circle at 50% -20.71%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%); */
     background-image: url(../img/cyber3.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+    background-position: bottom;
 }
   
 .texto {
@@ -123,6 +124,7 @@ from {
 .about{
     font-size: 3rem;
     opacity: 0.3;
+    width: 100%;
 }
 
 .box2 h1{
@@ -147,7 +149,7 @@ from {
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -161,6 +163,8 @@ from {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    margin: 50px;
+    margin-top: 0;
 }
 
 .box3 h1{
@@ -169,49 +173,6 @@ from {
 }
 
 .box3 p{
-    display: none;
-}
-
-
-.box4{
-    width: 300px;
-    height: 90%;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.box4 h1{
-    color: white;
-    font-size: 2rem;
-}
-
-.box4 p{
-    display: none;
-}
-
-.box5{
-    width: 300px;
-    height: 90%;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.box5 h1{
-    color: white;
-    font-size: 2rem;
-}
-
-.box5 p{
     display: none;
 }
 
@@ -232,6 +193,10 @@ from {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.why{
+    width: 100%;
 }
 
 .box6{
@@ -258,9 +223,10 @@ from {
 .box7{
     width: 50%;
     height: 100%;
-    background-image: url(../img/torre1.png);
+    background-image: url(../img/torre2.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .container5{
@@ -273,12 +239,13 @@ from {
 
 .container6{
     width: 100%;
-    height: 650px;
+    height: 850px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/space.png);
+    background:linear-gradient(to bottom right, red, yellow);
     flex-wrap: wrap;
+    padding: 30px;
 }
 
 .container6_box{
@@ -291,7 +258,7 @@ from {
 }
 
 .container6 p{
-    width: 90%;
+    width: 100%;
     font-size: 3rem;
     opacity: 0.3;
 }
@@ -303,7 +270,7 @@ from {
     align-items: center;
     justify-content: center;
     border: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
     margin: 30px;
 }

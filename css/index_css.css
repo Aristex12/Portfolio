@@ -39,7 +39,7 @@ nav ul li a{
 }
 
 .portada {
-    height: 80vh;
+    height: 90vh;
     display: grid;
     place-items: center;
     /* background: radial-gradient(circle at 50% -20.71%, #ff65b3 0, #ff59c0 10%, #ff4ecd 20%, #ff45d9 30%, #ff3fe6 40%, #f23cf2 50%, #d33ffe 60%, #ad46ff 70%, #7b4fff 80%, #0058ff 90%, #0060ff 100%); */
@@ -103,7 +103,7 @@ from {
 
 .container2{
     width: 100%;
-    height: 850px;
+    height: max-content;
     background: linear-gradient(to right, #21D4FD , #B721FF);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -145,8 +145,7 @@ from {
 }
 
 .box_container{
-    width: 80%;
-    height: 400px;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,7 +154,7 @@ from {
 
 .box3{
     width: 300px;
-    height: 90%;
+    height: 350px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
@@ -188,11 +187,13 @@ from {
 
 .container4{
     width: 100%;
-    height: 800px;
+    height: max-content;
     background-color: white;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .why{
@@ -200,7 +201,7 @@ from {
 }
 
 .box6{
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: black;
     color: white;
@@ -221,7 +222,7 @@ from {
 }
 
 .box7{
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-image: url(../img/torre2.png);
     background-repeat: no-repeat;
@@ -239,17 +240,17 @@ from {
 
 .container6{
     width: 100%;
-    height: 850px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to bottom right, red, yellow);
+    background: linear-gradient(to bottom right, cyan,  rgb(13, 210, 13));
     flex-wrap: wrap;
     padding: 30px;
 }
 
 .container6_box{
-    width: 90%;
+    width: 50%;
     height: 80%;
     display: flex;
     justify-content: center;
@@ -264,13 +265,35 @@ from {
 }
 
 .skills{
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
-    margin: 30px;
+    background-color: white;
+}
+
+.skills h1{
+    font-size: 3rem;
+    color: deeppink;
+}
+
+.skills:hover{
+    height: 80px;
+    transition: ease-in-out 500ms;
+    background-color: lightskyblue;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+footer{
+    height: 250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }

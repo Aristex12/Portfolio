@@ -1,0 +1,341 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+/* Codigo del nav */
+
+nav{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li:hover a{
+    color: #42C920;
+    transition: 0.3s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+/* Codigo del main de la pagina web */
+
+.container_portada{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.box1 h1{
+    font-size: 10rem;
+    font-family: 'Bebas Neue', cursive;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    color: cyan;
+}
+
+.box1 h1{
+    animation: fluido 10s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: linear 0.5s;
+}
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+.box2{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/room2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container6{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.container1{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+       ),url(../img/torre1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 800ms ease-in-out;
+}
+
+.container1 h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 6rem;
+    color: white;
+}
+
+.container2{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+       ),url(../img/torre2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 800ms ease-in-out;
+}
+
+.container2 h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 6rem;
+    color: white;
+}
+
+.container3{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+       ),url(../img/cyber3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 800ms ease-in-out;
+}
+
+.container3 h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 6rem;
+    color: white;
+}
+
+.container4{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+       ),url(../img/torre1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 800ms ease-in-out;
+}
+
+.container4 h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 6rem;
+    color: white;
+}
+
+.container5{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/torre2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 800ms ease-in-out;
+}
+
+.container5 h1{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 6rem;
+    color: white;
+}
+
+.container1:hover{
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.container2:hover{
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.container3:hover{
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.container4:hover{
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.container5:hover{
+    width: 75%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Codigo del footer */
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.container7{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.parte2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.parte2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.parte2 div{
+    margin: 10px;
+}
+
+.parte2 div:hover{
+    cursor: pointer;
+    filter: grayscale(0.5);
+    transition: ease-in-out 500ms;
+    width: 65%;
+}
+
+.Linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: red;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: #21D4FD;
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: #B721FF;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: darkblue;
+}

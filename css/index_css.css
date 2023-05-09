@@ -198,6 +198,8 @@ from {
 
 .why{
     width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .box6{
@@ -214,6 +216,7 @@ from {
 .box6 h1{
     font-size: 4rem;
     color: cyan;
+    margin-bottom: 10px;
 }
 
 .box6 p{
@@ -288,12 +291,85 @@ from {
 }
 
 footer{
-    height: 250px;
+    height: 300px;
     width: 100%;
+    background-color: white;
+}
+
+.container7{
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
     justify-content: center;
-    background-color: white;
+}
+
+
+
+.parte2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.parte2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.parte2 div{
+    margin: 10px;
+}
+
+.parte2 div:hover{
+    cursor: pointer;
+    filter: grayscale(0.5);
+    transition: ease-in-out 500ms;
+    width: 65%;
+}
+
+.Linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: red;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: #21D4FD;
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: #B721FF;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 10%;
+    background-color: darkblue;
 }

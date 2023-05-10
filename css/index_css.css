@@ -29,13 +29,13 @@ nav ul li{
 
 nav ul li:hover a{
     color: #42C920;
-    transition: 0.3s;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
     margin: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 .portada {

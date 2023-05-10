@@ -31,13 +31,13 @@ nav ul li{
 
 nav ul li:hover a{
     color: #42C920;
-    transition: 0.3s;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
     margin: 30px;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Codigo del main de la pagina web */
@@ -123,6 +123,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     transition: all 800ms ease-in-out;
+    position: relative;
 }
 
 .container1 h1{
@@ -130,6 +131,7 @@ nav ul li a{
     transform: rotate(180deg);
     font-size: 6rem;
     color: white;
+    transition: all 1000ms ease-in-out;
 }
 
 .container2{
@@ -224,10 +226,50 @@ nav ul li a{
     color: white;
 }
 
+.container1 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 20px;
+    transition: all 300ms ease-in;
+}
+
+.visit{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.visit h3{
+    font-size: 0px;
+    text-decoration: none;
+    color: cyan;
+    transition: all 300ms ease-in;
+}
+
+.container1:hover a{
+    transition-delay: 900ms;
+    width: 30%;
+    height: 10%;
+}
+
+.container1:hover .visit h3{
+    transition-delay: 900ms;
+    font-size: 1rem;
+}
+
 .container1:hover{
     width: 75%;
     height: 100%;
     cursor: pointer;
+}
+
+.container1:hover h1{
+    opacity: 0;
 }
 
 .container2:hover{

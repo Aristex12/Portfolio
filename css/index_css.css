@@ -275,6 +275,7 @@ from {
     justify-content: center;
     border-radius: 20px;
     background-color: white;
+    transition: all 300ms ease-in-out;
 }
 
 .skills h1{
@@ -285,9 +286,9 @@ from {
 .skills:hover{
     height: 80px;
     transition: ease-in-out 500ms;
-    background-color: lightskyblue;
+    filter: invert();
     cursor: pointer;
-    border: 3px solid white;
+    border: 3px solid black;
 }
 
 footer{
@@ -306,8 +307,6 @@ footer{
     justify-content: center;
 }
 
-
-
 .parte2{
     width: 100%;
     height: 100%;
@@ -321,6 +320,11 @@ footer{
 .parte2 a{
     text-decoration: none;
     color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .parte2 div{
@@ -342,6 +346,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: red;
+    transition: all 500ms ease-in-out;
 }
 
 .facebook{
@@ -352,6 +357,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: #21D4FD;
+    transition: all 500ms ease-in-out;
 }
 
 .insta{
@@ -362,6 +368,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: #B721FF;
+    transition: all 500ms ease-in-out;
 }
 
 .github{
@@ -372,4 +379,5 @@ footer{
     width: 60%;
     height: 10%;
     background-color: darkblue;
+    transition: all 500ms ease-in-out;
 }

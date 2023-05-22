@@ -149,6 +149,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     transition: all 800ms ease-in-out;
+    position: relative;
 }
 
 .container2 h1{
@@ -156,6 +157,7 @@ nav ul li a{
     transform: rotate(180deg);
     font-size: 6rem;
     color: white;
+    transition: all 1000ms ease-in-out;
 }
 
 .container3{
@@ -173,6 +175,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     transition: all 800ms ease-in-out;
+    position: relative;
 }
 
 .container3 h1{
@@ -180,6 +183,7 @@ nav ul li a{
     transform: rotate(180deg);
     font-size: 6rem;
     color: white;
+    transition: all 1000ms ease-in-out;
 }
 
 .container4{
@@ -197,6 +201,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     transition: all 800ms ease-in-out;
+    position: relative;
 }
 
 .container4 h1{
@@ -204,6 +209,7 @@ nav ul li a{
     transform: rotate(180deg);
     font-size: 6rem;
     color: white;
+    transition: all 1000ms ease-in-out;
 }
 
 .container5{
@@ -234,26 +240,66 @@ nav ul li a{
     width: 0;
     height: 0;
     border-radius: 20px;
-    transition: all 300ms ease-in;
+    transition: all 400ms ease-in;
+    text-decoration: none;
+}
+
+.container2 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 20px;
+    transition: all 400ms ease-in;
+    text-decoration: none;
+}
+
+.container3 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 20px;
+    transition: all 400ms ease-in;
+    text-decoration: none;
+}
+
+.container4 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 20px;
+    transition: all 400ms ease-in;
+    text-decoration: none;
 }
 
 .visit{
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .visit h3{
     font-size: 0px;
     text-decoration: none;
-    color: cyan;
+    color: black;
     transition: all 300ms ease-in;
 }
 
 .container1:hover a{
     transition-delay: 900ms;
-    width: 30%;
+    width: 20%;
     height: 10%;
 }
 
@@ -265,7 +311,7 @@ nav ul li a{
 .container1:hover{
     width: 75%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
 }
 
 .container1:hover h1{
@@ -275,25 +321,76 @@ nav ul li a{
 .container2:hover{
     width: 75%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
+}
+
+.container2:hover a{
+    transition-delay: 900ms;
+    width: 20%;
+    height: 10%;
+}
+
+.container2:hover .visit h3{
+    transition-delay: 900ms;
+    font-size: 1rem;
+}
+
+.container2:hover h1{
+    opacity: 0;
 }
 
 .container3:hover{
     width: 75%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
+}
+
+.container3:hover a{
+    transition-delay: 900ms;
+    width: 20%;
+    height: 10%;
+}
+
+.container3:hover .visit h3{
+    transition-delay: 900ms;
+    font-size: 1rem;
+}
+
+.container3:hover h1{
+    opacity: 0;
 }
 
 .container4:hover{
     width: 75%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
+}
+
+.container4:hover a{
+    transition-delay: 900ms;
+    width: 20%;
+    height: 10%;
+}
+
+.container4:hover .visit h3{
+    transition-delay: 900ms;
+    font-size: 1rem;
+}
+
+.container4:hover{
+    width: 75%;
+    height: 100%;
+    cursor: default;
+}
+
+.container4:hover h1{
+    opacity: 0;
 }
 
 .container5:hover{
     width: 75%;
     height: 100%;
-    cursor: pointer;
+    cursor: default;
 }
 
 /* Codigo del footer */
@@ -350,6 +447,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: red;
+    transition: all 500ms ease-in-out;
 }
 
 .facebook{
@@ -360,6 +458,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: #21D4FD;
+    transition: all 500ms ease-in-out;
 }
 
 .insta{
@@ -370,6 +469,7 @@ footer{
     width: 60%;
     height: 10%;
     background-color: #B721FF;
+    transition: all 500ms ease-in-out;
 }
 
 .github{
@@ -380,4 +480,5 @@ footer{
     width: 60%;
     height: 10%;
     background-color: darkblue;
+    transition: all 500ms ease-in-out;
 }

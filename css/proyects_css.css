@@ -44,7 +44,7 @@ nav ul li a{
 
 .container_portada{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,6 +222,7 @@ nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     transition: all 800ms ease-in-out;
 }
 
@@ -230,6 +231,7 @@ nav ul li a{
     transform: rotate(180deg);
     font-size: 6rem;
     color: white;
+    transition: all 1000ms ease-in-out;
 }
 
 .container1 a{
@@ -269,6 +271,18 @@ nav ul li a{
 }
 
 .container4 a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 20px;
+    transition: all 400ms ease-in;
+    text-decoration: none;
+}
+
+.container5 a{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -377,12 +391,6 @@ nav ul li a{
     font-size: 1rem;
 }
 
-.container4:hover{
-    width: 75%;
-    height: 100%;
-    cursor: default;
-}
-
 .container4:hover h1{
     opacity: 0;
 }
@@ -391,6 +399,21 @@ nav ul li a{
     width: 75%;
     height: 100%;
     cursor: default;
+}
+
+.container5:hover a{
+    transition-delay: 900ms;
+    width: 20%;
+    height: 10%;
+}
+
+.container5:hover .visit h3{
+    transition-delay: 900ms;
+    font-size: 1rem;
+}
+
+.container5:hover h1{
+    opacity: 0;
 }
 
 /* Codigo del footer */
@@ -411,8 +434,6 @@ footer{
     justify-content: center;
 }
 
-
-
 .parte2{
     width: 100%;
     height: 100%;
@@ -426,6 +447,11 @@ footer{
 .parte2 a{
     text-decoration: none;
     color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .parte2 div{

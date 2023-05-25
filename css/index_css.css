@@ -291,6 +291,8 @@ from {
     border: 3px solid black;
 }
 
+/* Codigo del footer */
+
 footer{
     height: 300px;
     width: 100%;
@@ -323,8 +325,8 @@ footer{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .parte2 div{

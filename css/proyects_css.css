@@ -42,6 +42,12 @@ nav ul li a{
 
 /* Codigo del main de la pagina web */
 
+.container8{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom right, cyan, lightgreen);
+}
+
 .container_portada{
     width: 100%;
     height: 90vh;
@@ -113,12 +119,13 @@ nav ul li a{
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-       ),url(../img/torre1.png);
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+       ),url(../img/space.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background: linear-gradient(to bottom, #845EC2, black); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,12 +146,13 @@ nav ul li a{
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-       ),url(../img/torre2.png);
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+       ),url(../img/proy1\ \(4\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background: linear-gradient(to bottom, #D65DB1, black); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,12 +173,13 @@ nav ul li a{
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-       ),url(../img/cyber3.png);
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+       ),url(../img/proy1\ \(3\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background: linear-gradient(to bottom, #FF6F91, black); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,12 +200,13 @@ nav ul li a{
     height: 100%;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-       ),url(../img/torre1.png);
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+       ),url(../img/proy1\ \(2\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background:linear-gradient(to bottom, #FF9671, black); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,10 +225,11 @@ nav ul li a{
 .container5{
     width: 20%;
     height: 100%;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/torre2.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/proy1\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* background:linear-gradient(to bottom, #f08e33, black); */
     display: flex;
     align-items: center;
     justify-content: center;

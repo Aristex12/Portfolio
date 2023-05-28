@@ -152,6 +152,20 @@ from {
     flex-wrap: wrap;
 }
 
+.box3:hover{
+    width: 70%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 0;
+}
+
 .box3{
     width: 300px;
     height: 350px;
@@ -164,6 +178,7 @@ from {
     padding: 20px;
     margin: 50px;
     margin-top: 0;
+    transition: all 800ms ease-in-out;
 }
 
 .box3 h1{

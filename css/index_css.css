@@ -152,20 +152,6 @@ from {
     flex-wrap: wrap;
 }
 
-.box3:hover{
-    width: 70%;
-    height: 350px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin: 50px;
-    margin-top: 0;
-}
-
 .box3{
     width: 300px;
     height: 350px;
@@ -179,15 +165,49 @@ from {
     margin: 50px;
     margin-top: 0;
     transition: all 800ms ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+.box3:hover{
+    width: 40%;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 0;
 }
 
 .box3 h1{
+    position: absolute;
     color: white;
     font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
 }
 
-.box3 p{
-    display: none;
+.box3:hover h1{
+    opacity: 0;
+}
+
+.box3 p {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+.box3:hover p{
+    opacity: 1;
+    transition-delay: 0.3s;
 }
 
 .container3{

@@ -496,6 +496,91 @@ nav ul li a{
     opacity: 0;
 }
 
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+    .box1 h1{
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .box1 h1{
+        font-size: 3.8rem;
+    }
+
+    .main_container{
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .container1{
+        width: 100%;
+    }
+
+    .container1:hover{
+        width: 100%;
+    }
+
+    .container1 h1{
+        margin: 30px;
+        font-size: 4rem;
+    }
+
+    .container2{
+        width: 100%;
+    }
+
+    .container2:hover{
+        width: 100%;
+    }
+
+    .container2 h1{
+        margin: 30px;
+        font-size: 4rem;
+    }
+
+    .container3{
+        width: 100%;
+    }
+
+    .container3:hover{
+        width: 100%;
+    }
+
+    .container3 h1{
+        margin: 30px;
+        font-size: 4rem;
+    }
+
+    .container4{
+        width: 100%;
+    }
+
+    .container4:hover{
+        width: 100%;
+    }
+
+    .container4 h1{
+        margin: 30px;
+        font-size: 4rem;
+    }
+
+    .container5{
+        width: 100%;
+    }
+
+    .container5:hover{
+        width: 100%;
+    }
+
+    .container5 h1{
+        margin: 30px;
+        font-size: 4rem;
+    }
+
+}
+
 /* Codigo del footer */
 
 footer{

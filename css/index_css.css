@@ -328,6 +328,12 @@ from {
 
 /* RESPONSIVE */
 
+@media (max-width: 992px) {
+    .box3:hover{
+        width: 40%;
+    }
+}
+
 @media (max-width: 576px) {
     .box3 p{
         font-size: 1rem;
